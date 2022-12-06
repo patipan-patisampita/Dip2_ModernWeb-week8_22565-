@@ -26,7 +26,7 @@ const Header = () => {
                 <Link className="nav-link active" to="/profile"><FaCalendarPlus /> Profile</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#"><FaLeaf /> Fruit</a>
+                <Link className="nav-link active" to="/fruit"><FaLeaf /> Fruit</Link>
               </li>
             </ul>
           </div>
