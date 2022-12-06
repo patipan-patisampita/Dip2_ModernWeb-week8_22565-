@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom"
 import RootLayout from "./components/layouts/RootLayout"
 import About from "./components/pages/About"
 import Home from "./components/pages/Home"
-import Profile from "./components/partials/Profile"
+import Profile from "./components/pages/Profile"
 
 function App() {
   console.log("process.env.PORT: ", process.env.PORT)
